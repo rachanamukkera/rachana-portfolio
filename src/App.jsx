@@ -496,9 +496,7 @@ function App() {
         technical skills, internship experience and projects.
       </p>
 
-      <a href="/resume.pdf" download className="resume-btn">
-        Download Resume ↓
-      </a>
+      <a href="/rachana-portfolio/resume.pdf" download className="resume-btn">Download Resume</a>
     </div>
   </div>
 </section>

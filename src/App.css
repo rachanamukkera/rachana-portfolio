@@ -336,30 +336,134 @@ body {
 }
 
 .skill-card {
-  background: #09182c;
-  border: 1px solid #1d3a61;
-  border-radius: 12px;
-  padding: 25px;
+  background: #08182c;
+  border: 1px solid #1c3b63;
+  border-radius: 16px;
+  padding: 30px 28px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
   transition: 0.3s ease;
-  text-align: left;
 }
 
 .skill-card:hover {
-  transform: translateY(-6px);
-  border-color: #9b7cff;
-  box-shadow: 0 8px 25px rgba(139, 108, 255, 0.15);
+  transform: translateY(-5px);
+  border-color: #8b6cff;
+  box-shadow: 0 10px 30px rgba(139, 108, 255, 0.15);
+}
+
+.skill-logo {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
 }
 
 .skill-card h3 {
-  font-size: 17px;
-  margin-bottom: 10px;
-  color: white;
+  margin: 0 0 8px;
+  color: #ffffff;
+  font-size: 19px;
 }
 
 .skill-card p {
-  color: #8f9caf;
+  margin: 0;
+  color: #9eabc0;
   font-size: 14px;
-  line-height: 1.5;
+}
+
+/* Technology logo colors */
+
+.python-logo {
+  color: #3776ab;
+}
+
+.django-logo {
+  color: #092e20;
+}
+
+.react-logo {
+  color: #61dafb;
+}
+
+.javascript-logo {
+  color: #f7df1e;
+}
+
+.html-logo {
+  color: #e34f26;
+}
+
+.css-logo {
+  color: #1572b6;
+}
+
+.postgresql-logo {
+  color: #4169e1;
+}
+
+.pyspark-logo {
+  color: #e25a1c;
+}
+
+.databricks-logo {
+  color: #ff3621;
+}
+
+.git-logo {
+  color: #f05032;
+}
+
+.text-logo {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.pyspark-text-logo {
+  background: #e25a1c;
+  color: white;
+}
+
+.databricks-text-logo {
+  background: #ff3621;
+  color: white;
+}
+
+/* SQL */
+
+.sql-logo {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #336791;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* ETL */
+
+.etl-logo {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #6c63ff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
 }
 
 @media (max-width: 1000px) {

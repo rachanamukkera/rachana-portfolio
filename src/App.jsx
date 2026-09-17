@@ -1,3 +1,14 @@
+import {
+  SiPython,
+  SiDjango,
+  SiReact,
+  SiJavascript,
+  SiHtml5,
+  SiCss,
+  SiPostgresql,
+  SiGit,
+  SiGithub
+} from "react-icons/si";
 import { useState } from "react";
 import "./App.css";
 
@@ -125,79 +136,113 @@ function App() {
       </section>
 
 
-      {/* Skills Section */}
-      <section id="skills" className="skills section">
+      {/* Skills */}
+<section id="skills" className="skills section">
+  <div className="section-heading">
+    <p>SKILLS</p>
+    <h2>My Technical Skills</h2>
+  </div>
 
-        <div className="section-heading">
-          <p>SKILLS</p>
-          <h2>My Technical Skills</h2>
-        </div>
+  <div className="skills-grid">
 
-        <div className="skills-grid">
+    <div className="skill-card">
+      <SiPython className="skill-logo python-logo" />
+      <div>
+        <h3>Python</h3>
+        <p>Programming Language</p>
+      </div>
+    </div>
 
-          <div className="skill-card">
-            <h3>🐍 Python</h3>
-            <p>Programming Language</p>
-          </div>
+    <div className="skill-card">
+      <div className="sql-logo">SQL</div>
+      <div>
+        <h3>SQL</h3>
+        <p>Querying & Data Analysis</p>
+      </div>
+    </div>
 
-          <div className="skill-card">
-            <h3>🗄️ SQL</h3>
-            <p>Querying & Data Analysis</p>
-          </div>
+    <div className="skill-card">
+      <SiDjango className="skill-logo django-logo" />
+      <div>
+        <h3>Django</h3>
+        <p>Web Framework</p>
+      </div>
+    </div>
 
-          <div className="skill-card">
-            <h3>🌐 Django</h3>
-            <p>Web Framework</p>
-          </div>
+    <div className="skill-card">
+      <SiReact className="skill-logo react-logo" />
+      <div>
+        <h3>React</h3>
+        <p>Basics</p>
+      </div>
+    </div>
 
-          <div className="skill-card">
-            <h3>⚛️ React</h3>
-            <p>Basics</p>
-          </div>
+    <div className="skill-card">
+      <SiJavascript className="skill-logo javascript-logo" />
+      <div>
+        <h3>JavaScript</h3>
+        <p>Frontend Logic</p>
+      </div>
+    </div>
 
-          <div className="skill-card">
-            <h3>🟨 JavaScript</h3>
-            <p>Frontend Logic</p>
-          </div>
+    <div className="skill-card">
+      <SiHtml5 className="skill-logo html-logo" />
+      <div>
+        <h3>HTML</h3>
+        <p>Web Structure</p>
+      </div>
+    </div>
 
-          <div className="skill-card">
-            <h3>🌐 HTML</h3>
-            <p>Web Structure</p>
-          </div>
+    <div className="skill-card">
+      <SiCss className="skill-logo css-logo" />
+      <div>
+        <h3>CSS</h3>
+        <p>Web Styling</p>
+      </div>
+    </div>
 
-          <div className="skill-card">
-            <h3>🎨 CSS</h3>
-            <p>Web Styling</p>
-          </div>
+    <div className="skill-card">
+      <SiPostgresql className="skill-logo postgresql-logo" />
+      <div>
+        <h3>PostgreSQL</h3>
+        <p>Database</p>
+      </div>
+    </div>
 
-          <div className="skill-card">
-            <h3>🐘 PostgreSQL</h3>
-            <p>Database</p>
-          </div>
+    <div className="skill-card">
+      <div className="etl-logo">ETL</div>
+      <div>
+        <h3>ETL / ELT</h3>
+        <p>Data Pipelines</p>
+      </div>
+    </div>
 
-          <div className="skill-card">
-            <h3>🔄 ETL / ELT</h3>
-            <p>Data Pipelines</p>
-          </div>
+    <div className="skill-card">
+      <div className="text-logo pyspark-text-logo">Py</div>
+      <div>
+        <h3>PySpark</h3>
+        <p>Big Data Processing</p>
+      </div>
+    </div>
 
-          <div className="skill-card">
-            <h3>⚡ PySpark</h3>
-            <p>Big Data Processing</p>
-          </div>
+    <div className="skill-card">
+      <div className="text-logo databricks-text-logo">DB</div>
+      <div>
+        <h3>Databricks</h3>
+        <p>Data Engineering</p>
+      </div>
+    </div>
 
-          <div className="skill-card">
-            <h3>🧱 Databricks</h3>
-            <p>Data Engineering</p>
-          </div>
+    <div className="skill-card">
+      <SiGit className="skill-logo git-logo" />
+      <div>
+        <h3>Git & GitHub</h3>
+        <p>Version Control</p>
+      </div>
+    </div>
 
-          <div className="skill-card">
-            <h3>🔧 Git & GitHub</h3>
-            <p>Version Control</p>
-          </div>
-
-        </div>
-
-      </section>
+  </div>
+</section>
 
             {/* Experience Section */}
       <section id="experience" className="experience section">
